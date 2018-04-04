@@ -6,5 +6,15 @@ public class BusanaMuslim extends Kerudung{
     void throttle(){
         System.out.println("KRESEK.....");
     }
+
+    public String getJenisKerudung() {
+        return jenisKerudung;
+    }
+
+    public void setJenisKerudung(String jenisKerudung) {
+        this.jenisKerudung = jenisKerudung;
+    }
+    
+    
 }
     
