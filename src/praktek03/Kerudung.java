@@ -9,4 +9,30 @@ public class Kerudung {
       System.out.println("Merk \t: "+Merk+"\n"+"Warna \t: "+Warna+"\n"+"Harga \t: "+Harga);
       
   }
+
+    public String getMerk() {
+        return Merk;
+    }
+
+    public void setMerk(String Merk) {
+        this.Merk = Merk;
+    }
+
+    public String getWarna() {
+        return Warna;
+    }
+
+    public void setWarna(String Warna) {
+        this.Warna = Warna;
+    }
+
+    public Integer getHarga() {
+        return Harga;
+    }
+
+    public void setHarga(Integer Harga) {
+        this.Harga = Harga;
+    }
+  
+  
 }
